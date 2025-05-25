@@ -94,6 +94,7 @@ The primary objective of this analysis is to evaluate the sales performance of A
 The data reveals that Adventure Works has a dominant market presence in North America and a highly profitable bike product line. With strategic improvements in product marketing, especially for underperforming categories, and expansion into emerging markets like Australia and Europe, the company can diversify its revenue streams and stabilize seasonal fluctuations. Targeted regional campaigns and timing strategies can further amplify performance.
 
 ## Sales Dashboard
-![png](https://github.com/caseytientruong/PowerBI-Adventure-Works-Analytics/blob/main/Dashboard.pdf)
-
+![png](https://github.com/caseytientruong/PowerBI-Adventure-Works-Analytics/blob/main/sales%20dashboard.png)
+![png](https://github.com/caseytientruong/PowerBI-Adventure-Works-Analytics/blob/main/sales%20dashboard(1).png)
+![png](https://github.com/caseytientruong/PowerBI-Adventure-Works-Analytics/blob/main/sales%20dashboard(2).png)
 
