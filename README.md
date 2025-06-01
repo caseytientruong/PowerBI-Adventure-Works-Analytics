@@ -182,7 +182,8 @@ Focus sales efforts and training on high-profit categories like Copiers and Tech
 
 
 ## Sales Dashboard
-![png](https://github.com/caseytientruong/PowerBI-Adventure-Works-Analytics/blob/main/sales%20dashboard.png)
-![png](https://github.com/caseytientruong/PowerBI-Adventure-Works-Analytics/blob/main/sales%20dashboard(1).png)
-![png](https://github.com/caseytientruong/PowerBI-Adventure-Works-Analytics/blob/main/sales%20dashboard(2).png)
+![png](https://github.com/caseytientruong/PowerBI-Adventure-Works-Analytics/blob/main/Overview.png)
+![png](https://github.com/caseytientruong/PowerBI-Adventure-Works-Analytics/blob/main/Product.png)
+![png](https://github.com/caseytientruong/PowerBI-Adventure-Works-Analytics/blob/main/Customer.png)
+![png](https://github.com/caseytientruong/PowerBI-Adventure-Works-Analytics/blob/main/Return.png)
 
