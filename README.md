@@ -1,238 +1,130 @@
-# PowerBI Adventure-Works-Analytics
+# AdventureWorks Sales Performance & Customer Insights | Power BI
 
-## 1. Objective
+## Table of Contents
+## Table of Contents  
+- [📌 Background & Overview](#background--overview)  
+- [📂 Dataset Description & Data Structure](#dataset-description--data-structure)  
+- [🧠 Design Thinking Process](#design-thinking-process)  
+- [📊 Key Insights & Visualizations](#key-insights--visualizations)  
+- [🔎 Final Conclusion & Recommendations](#final-conclusion--recommendations)
 
-The primary objective of this sales analytics project is to derive deep, actionable insights from transactional, customer, and product data, enabling strategic decision-making to boost sales performance, enhance profitability, and strengthen customer retention. This report presents an exhaustive analysis of sales patterns, product performance, customer behaviors, and potential areas of growth or improvement. It is structured to assist stakeholders in understanding current sales dynamics and guide future data-driven strategies.
+## 📌 Background & Overview
+### 🎯 Objective:
+This Power BI dashboard project analyzes sales, customer, and product data from the AdventureWorks dataset to generate actionable insights that support strategic decisions in revenue growth, customer retention, and operational efficiency.
 
-## 2. Sales Overview
+### 📖 What is this project about?
+The goal is to conduct a comprehensive analysis of AdventureWorks' sales performance from 2011 to 2014. This includes understanding product profitability, customer behavior, regional performance, churn rate trends, and return analysis.
 
-### 2.1 Revenue and Order Summary
+### 👤 Who is this project for?
+✔️ Sales leaders seeking a clear picture of revenue trends and profit drivers
+✔️ Marketing and product teams interested in category-level performance and customer segmentation
+✔️ Business strategists aiming to optimize retention and reduce return rates
 
-Total Revenue: $12.64 million, with a consistent upward trend throughout the observed period.
+### ❓Business Questions:
+✔️ What are the top-performing products and regions in terms of revenue and profit?
+✔️ Which customer segments generate the most value?
+✔️ What factors drive customer churn and product returns?
+✔️ Where are there untapped market opportunities?
 
-Total Orders: 25,035 orders placed across multiple regions.
+## 📊 Key Insights & Visualizations  
 
-Total Units Sold: 178,000 units.
+### I. Sales Overview  
 
-Total Profit: $1 million, resulting in a profit margin of 12%.
+- **Total Revenue:** $12.64M  
+- **Total Orders:** 25,035  
+- **Total Units Sold:** 178,000  
+- **Profit Margin:** 12%  
+- **YoY Sales Growth:** +52%
 
-Sales Growth YoY: A remarkable 52% year-over-year growth, highlighting significant business expansion.
+📌 **Insights:**  
+- Revenue and profit steadily increased from 2011 to 2014.  
+- Sales spikes occurred mid-2012 and mid-2014, suggesting effective seasonal promotions.  
+- **Top revenue markets:** US, EU, APAC  
+- **Emerging opportunities:** LATAM and Africa  
+- **Shipping Mode:** Standard Class dominated with over $7.6M in revenue and $0.9M profit.
 
-### 2.2 Temporal Analysis
+---
 
-Revenue and profit have steadily increased from January 2011 through late 2014.
+### II. Product & Profitability Analysis  
 
-Sharp upticks in sales were observed in mid-2012 and mid-2014, suggesting the effectiveness of seasonal campaigns or promotions.
+📌 **Key Findings:**  
+1. **Top Categories**  
+   - 🖥️ Technology led both revenue and profit with margins ranging from 17–24%.  
+   - 🪑 Furniture and Office Supplies showed stable but lower margins (8–14%).
 
-### 2.3 Geographic Analysis
+2. **Sub-Category Performance**  
+   - 📈 Top: Phones, Copiers (high revenue, 13–17% margins)  
+   - 📉 Bottom: Labels, Fasteners, Envelopes (low or negative contribution)
 
-Top revenue-generating markets: North America (notably the US), Europe (EU), and APAC.
+3. **Top Products**  
+   - Canon imageCLASS 2200 and Cisco Smart Phone each generated >$17K in profit.  
+   - Suggest increased inventory and targeted promotions.
 
-Emerging markets: LATAM and Africa show modest performance but hold potential for growth.
+4. **Shipping Mode**  
+   - Standard Class preferred; First Class and Same Day less popular but could serve niche segments.
 
-## 3. Product and Profitability Analysis
+---
 
-### 3.1 Category-Level Analysis
+### III. Customer Analysis  
 
-Top Revenue Categories:
+📌 **Key Findings:**  
+1. **Customer Volume & Revenue**  
+   - Steady monthly growth. Peak months: November, December, September 2014.
 
-Technology: Dominates in both revenue and profitability.
+2. **Churn Rate Analysis**  
+   - Highest churn: August (24.1%), October (16.5%), January (16%).  
+   - Lowest churn: February, April, May (0%), possibly due to better engagement or data issues.
 
-Office Supplies and Furniture: Show stable contributions across markets.
+3. **Segmentation**  
+   - Consumer segment contributed ~51.5% (~$6.5M).  
+   - Corporate: 30.25%, Home Office: 18.27%
 
-Profit Margins:
+4. **Customer Types by Region**  
+   - Central, South, and North regions had >700 returning customers.  
+   - New customer growth was slower—indicating strong retention, low acquisition.
 
-Technology products maintain margins of 17-24%.
+5. **Customer Lifetime Value (CLV)**  
+   - Highest: APAC, EU, US (avg. CLV > $9K)  
+   - Lowest: Africa, Canada (avg. CLV < $2K)
 
-Furniture and Office Supplies fluctuate between 8-14%.
+---
 
-### 3.2 Sub-Category Performance
+### IV. Return Analysis  
 
-Best-performing sub-categories:
+📌 **Key Findings:**  
+1. **Return Rate by Region**  
+   - Highest: APAC (35.8%), LATAM (30.5%), EMEA (30.4%)  
+   - Lowest: Canada (0%), Africa (21.4%)
 
-Phones and Copiers: High revenue and 13-17% profit margins.
+2. **Monthly Return Trends**  
+   - Peaks in February, October, and December—aligning with seasonal sales surges.
 
-Chairs and Binders: Consistent performance.
+3. **Returns by Segment & Category**  
+   - Technology had the highest return rate (~33%)  
+   - Corporate segment returned more Office Supplies  
+   - Consumers returned more Furniture and Tech
 
-Underperforming sub-categories:
+4. **Sub-Category Return Rates**  
+   - Highest: Chairs (32.3%), Phones (32.2%), Binders (26.9%)  
+   - Binders and Storage had the highest total returns by volume.
 
-Labels, Fasteners, and Envelopes: Minimal contribution with low or no margin.
+5. **Top 10 Returned Products**  
+   - Smead File Folders, Rogers File Cabinet, Ibico Index Tabs, Rogers Lock File were the most returned.
 
-### 3.3 Top Products
+---
 
-Canon imageCLASS 2200 and Cisco Smart Phone top the list by profit, each exceeding $17K.
+## 🔎 Final Conclusion & Recommendations  
 
-These products should be considered for prioritized stock and marketing strategies.
+| Strategy                      | Insight                                                                 | Recommendation                                                                 |
+|------------------------------|-------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| 🚀 Market Expansion           | Canada and Africa have low sales but minimal competition                | Launch localized campaigns, leverage referrals, and target engagement          |
+| 🧠 Product Optimization       | Phones and Copiers drive margin; Labels and Fasteners underperform      | Scale high performers, repackage or remove low-profit SKUs                    |
+| 👥 Retention Strategy         | August and October show high churn spikes                               | Add churn monitoring and post-promo engagement campaigns                        |
+| 🛒 Customer Acquisition       | Slow growth in new customers across regions                              | Build stronger onboarding and tailored first-purchase incentives              |
+| ⚙️ Shipping Efficiency        | Standard Class dominates; others underused                              | Keep Standard Class default; offer upgrades to high CLV users                 |
+| 🔄 Return Management          | High return rates in APAC, LATAM, EMEA                                  | Improve product info, packaging, AR demos, and localized quality control       |
 
-### 3.4 Shipping Mode Analysis
-
-Standard Class accounts for over $7.6M in revenue and $0.9M in profit.
-
-First Class and Same Day generate far less revenue, indicating a niche utility or customer base.
-
-## 4. Customer Analysis
-
-### 4.1 Customer Volume and Revenue Trends
-
-Monthly customer count increased steadily, indicating improved market penetration.
-
-Highest order and revenue months: November 2014, December 2014, and September 2014.
-
-### 4.2 Churn Rate Analysis
-
-Average churn rate fluctuates significantly across months.
-
-Highest churn rate: August (24.1%), followed by October (16.5%) and January (16.0%).
-
-Lowest churn rate: Several months (e.g., February, April, May) show 0.0%, which could indicate data inconsistencies or returning customers retaining throughout the year.
-
-### 4.3 Customer Segmentation
-
-Consumer segment: 51.5% of total revenue (~$6.5M), indicating it is the core revenue driver.
-
-Corporate and Home Office segments contribute 30.25% and 18.27%, respectively.
-
-### 4.4 Customer Type and Region
-
-Returning Customers: Central, South, and North regions have the highest number of return customers (>700 each).
-
-New Customers: Consistently lower across all regions, suggesting good retention but slower acquisition.
-
-### 4.5 Customer Lifetime Value (CLV)
-
-Highest CLV markets: APAC, EU, and US with avg. CLVs above $9K.
-
-Lowest CLV markets: Africa and Canada (< $2K), suggesting weak engagement or value realization.
-
-Segments with highest CLV: Corporate and Consumer dominate across high-performing markets.
-
-## 5. Return Analysis 
-
-### 5.1. Returns by Market 
-
-Highest Return Rates:
-
-APAC (35.8%), LATAM (30.5%), and EMEA (30.4%).
-
-Lowest Return Rates:
-
-Africa (21.4%) and Canada (0%).
-
-Total Orders are highest in APAC (5.4K) and LATAM (5.1K).
-
-### 5.2. Returns by Month 
-
-Return rates are highest in February (30.5%), October (30.7%), and December (29.6%).
-
-Sales peak in December (3.2K orders), October (3.0K), and July (2.7K).
-
-### 5.3. Returns by Segment and Category 
-
-Technology has the highest category return rate (~33%) across all segments.
-
-Corporate and Home Office segments return more Office Supplies.
-
-Consumer segment returns more Furniture and Technology.
-
-### 5.4. Returns by Sub-Category 
-
-Highest Return Rates:
-
-Chairs (32.3%), Phones (32.2%), and Binders (26.9%).
-
-Highest Volume Sub-Category:
-
-Binders and Storage receive the most total orders and returns.
-
-### 5.5. Top 10 Returned Products
-
-Top returned products include:
-
-Smead File Folders (31), Rogers File Cabinet (28), Ibico Index Tabs (25), and Rogers Lock File (22).
-
-
-## 5. Key Insights
-
-Revenue Concentration: A significant portion of revenue is concentrated in the Consumer segment and top-performing regions like North America and APAC.
-
-High Profitability Products: Technology leads both in terms of revenue and margins; phones and copiers are top drivers.
-
-Churn Volatility: High churn in certain months like August and October suggests post-promotional fallout or poor customer experience.
-
-Market Expansion Opportunity: Underperforming markets like Africa and Canada represent low-hanging fruit for targeted campaigns.
-
-Shipping Efficiency: Standard Class is the preferred shipping mode, indicating it should remain default unless customer preferences change.
-
-Customer Segmentation Maturity: The company demonstrates strong returning customer engagement, but needs more aggressive strategies for new customer acquisition.
-
-APAC, LATAM, and EMEA contribute significantly to high-volume returns. Despite strong sales volumes, these regions experience disproportionate returns, affecting profitability and customer trust.
-
-Return spikes align with high sales months and promotional periods (holidays, Q4). This is likely due to impulse purchases, gift returns, or unmet expectations.
-
-Technology’s high return rate may indicate issues with functionality, delivery damage, or product expectations.
-
-Office Supplies return rate is slightly higher in Corporate environments, suggesting bulk purchases and administrative errors.
-
-Furniture items like Chairs and Phones likely face fit, comfort, or damage issues.
-
-Binders may suffer from low-cost quality perception or bulk order mistakes.
-
-
-
-## 7. Strategic Recommendations
-
-### 7.1 Retention and Churn Management
-
-Develop monthly churn watchlists and intervene during high-risk months (e.g., August, October) with tailored offers.
-
-Launch customer feedback loops after peak sales months to improve retention.
-
-### 7.2 Product Strategy
-
-Expand inventory and marketing of high-margin products (e.g., phones, copiers).
-
-Evaluate the feasibility of removing or repackaging underperforming sub-categories like Labels and Fasteners.
-
-### 7.3 Market Penetration
-
-Launch awareness and sales campaigns in Africa and Canada using targeted messaging.
-
-Leverage referral programs to enter these markets cost-effectively.
-
-### 7.4 Customer Acquisition and Engagement
-
-Increase onboarding efforts for new customers through email sequences, discounts, and product recommendations.
-
-Build loyalty programs for returning customers to sustain the high CLV and conversion rate.
-
-### 7.5 Shipping Optimization
-
-Maintain Standard Class as the default shipping mode.
-
-Conduct cost-benefit analysis of offering free or discounted First Class delivery to high CLV customers.
-
-### 7.6. Return Prevention 
-
-Conduct root cause analysis in APAC, LATAM, and EMEA to identify logistical, cultural, or product-related causes.
-
-Consider localized quality assurance, packaging improvements, and clearer product descriptions.
-
-Implement return policy reminders and product quality checks during peak seasons.
-
-Provide detailed product images, sizing guides, and FAQs during promotional campaigns.
-
-Add warranty information, setup guides, and return-on-condition requirements for technology products.
-
-Offer sample programs or smaller trial packs for office bulk buyers.
-
-Include AR visualization or interactive demos for furniture before purchase.
-
-Review product specs and packaging for improvement in high-return items.
-
-Collaborate with suppliers to conduct a product quality audit.
-
-Display assembly instructions and measurements clearly on product pages.
-
+---
 
 ## Sales Dashboard
 
