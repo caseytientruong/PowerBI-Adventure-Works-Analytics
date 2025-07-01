@@ -237,7 +237,7 @@ Display assembly instructions and measurements clearly on product pages.
 ## Sales Dashboard
 
 **1.Sales Overview**
-![png](https://github.com/caseytientruong/PowerBI-Adventure-Works-Analytics/blob/main/Sales_Overview.png)
+![png](https://github.com/caseytientruong/PowerBI-Adventure-Works-Analytics/blob/main/Overview.png)
 
 
 **2. Product & Profitability**
