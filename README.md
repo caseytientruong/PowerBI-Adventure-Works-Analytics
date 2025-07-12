@@ -29,6 +29,7 @@ The goal is to conduct a comprehensive analysis of AdventureWorks' sales perform
 ## 📊 Key Insights & Visualizations  
 
 ### I. Sales Overview  
+![png](https://github.com/caseytientruong/PowerBI-Adventure-Works-Analytics/blob/main/Overview.png)
 
 - **Total Revenue:** $12.64M  
 - **Total Orders:** 25,035  
@@ -46,6 +47,7 @@ The goal is to conduct a comprehensive analysis of AdventureWorks' sales perform
 ---
 
 ### II. Product & Profitability Analysis  
+![png](https://github.com/caseytientruong/PowerBI-Adventure-Works-Analytics/blob/main/Product.png)
 
 📌 **Key Findings:**  
 1. **Top Categories**  
@@ -66,6 +68,7 @@ The goal is to conduct a comprehensive analysis of AdventureWorks' sales perform
 ---
 
 ### III. Customer Analysis  
+![png](https://github.com/caseytientruong/PowerBI-Adventure-Works-Analytics/blob/main/Customer.png)
 
 📌 **Key Findings:**  
 1. **Customer Volume & Revenue**  
@@ -89,7 +92,8 @@ The goal is to conduct a comprehensive analysis of AdventureWorks' sales perform
 
 ---
 
-### IV. Return Analysis  
+### IV. Return Analysis
+![png](https://github.com/caseytientruong/PowerBI-Adventure-Works-Analytics/blob/main/Return.png)
 
 📌 **Key Findings:**  
 1. **Return Rate by Region**  
@@ -126,20 +130,4 @@ The goal is to conduct a comprehensive analysis of AdventureWorks' sales perform
 
 ---
 
-## Sales Dashboard
-
-**1.Sales Overview**
-![png](https://github.com/caseytientruong/PowerBI-Adventure-Works-Analytics/blob/main/Overview.png)
-
-
-**2. Product & Profitability**
-![png](https://github.com/caseytientruong/PowerBI-Adventure-Works-Analytics/blob/main/Product.png)
-
-
-**3. Customer Analysis**
-![png](https://github.com/caseytientruong/PowerBI-Adventure-Works-Analytics/blob/main/Customer.png)
-
-
-**4. Return & Shipping**
-![png](https://github.com/caseytientruong/PowerBI-Adventure-Works-Analytics/blob/main/Return.png)
 
