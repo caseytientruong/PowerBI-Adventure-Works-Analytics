@@ -3,8 +3,6 @@
 ## Table of Contents
 ## Table of Contents  
 - [📌 Background & Overview](#background--overview)  
-- [📂 Dataset Description & Data Structure](#dataset-description--data-structure)  
-- [🧠 Design Thinking Process](#design-thinking-process)  
 - [📊 Key Insights & Visualizations](#key-insights--visualizations)  
 - [🔎 Final Conclusion & Recommendations](#final-conclusion--recommendations)
 
